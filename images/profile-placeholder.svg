@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="プロフィール写真（仮）">
+  <!-- 仮画像。写真を images/profile.jpg として置き、HTML側のファイル名を変えてください -->
+  <rect width="300" height="300" fill="#fff3c4"/>
+  <circle cx="230" cy="70" r="40" fill="#f9d85e" opacity="0.6"/>
+  <circle cx="150" cy="128" r="50" fill="#f4c9a0"/>
+  <path d="M100 122 C98 70, 204 66, 202 124 C196 96, 120 92, 100 122 Z" fill="#6b5240"/>
+  <path d="M100 122 C96 150, 100 170, 108 178 L112 130 Z" fill="#6b5240"/>
+  <path d="M202 124 C206 150, 202 170, 194 178 L190 130 Z" fill="#6b5240"/>
+  <path d="M60 300 C60 220, 240 220, 240 300 Z" fill="#f4a259"/>
+  <text x="150" y="285" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#ffffff">PHOTO</text>
+</svg>

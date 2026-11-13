@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sunny Days Parenting ロゴ">
+  <!-- 太陽のロゴ：やわらかい光線のシンプルな太陽 -->
+  <g transform="translate(32 32)" stroke-linecap="round">
+    <g stroke="#f9d85e" stroke-width="5">
+      <line x1="0" y1="-22" x2="0" y2="-29"/>
+      <line x1="0" y1="-22" x2="0" y2="-29" transform="rotate(90)"/>
+      <line x1="0" y1="-22" x2="0" y2="-29" transform="rotate(180)"/>
+      <line x1="0" y1="-22" x2="0" y2="-29" transform="rotate(270)"/>
+    </g>
+    <g stroke="#f4a259" stroke-width="4">
+      <line x1="0" y1="-22" x2="0" y2="-27" transform="rotate(45)"/>
+      <line x1="0" y1="-22" x2="0" y2="-27" transform="rotate(135)"/>
+      <line x1="0" y1="-22" x2="0" y2="-27" transform="rotate(225)"/>
+      <line x1="0" y1="-22" x2="0" y2="-27" transform="rotate(315)"/>
+    </g>
+    <circle r="17" fill="#f9d85e"/>
+    <circle r="17" fill="none" stroke="#f2c23e" stroke-width="1.5"/>
+    <!-- 内側のやわらかい光 -->
+    <circle r="10" fill="#fce88f"/>
+  </g>
+</svg>

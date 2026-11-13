@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お申し込み・お問い合わせ｜Sunny Days Parenting</title>
+  <meta name="description" content="30分の無料お試しセッションのご予約、ペアレンティングコーチングに関するお問い合わせはこちらから。">
+  <link rel="canonical" href="https://sunnydaysparenting.com/contact.html">
+  <meta property="og:site_name" content="Sunny Days Parenting">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="お申し込み・お問い合わせ｜Sunny Days Parenting">
+  <meta property="og:description" content="30分の無料お試しセッションのご予約、ペアレンティングコーチングに関するお問い合わせはこちらから。">
+  <meta property="og:url" content="https://sunnydaysparenting.com/contact.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="">
+      <span class="logo-text">
+        <span class="logo-main">Sunny Days</span>
+        <span class="logo-sub">Parenting</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="global-nav" id="global-nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">わたしについて</a></li>
+        <li><a href="service.html">コーチング・料金</a></li>
+        <li><a href="voice.html">お客様の声</a></li>
+        <li><a href="faq.html">よくある質問</a></li>
+        <li class="nav-cta"><a href="contact.html" aria-current="page">お申し込み</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-head">
+    <span class="en">Contact</span>
+    <h1>お申し込み・お問い合わせ</h1>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2 contact-choice">
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">📅</div>
+          <h3>無料お試しセッションを予約する</h3>
+          <p>
+            予約ページのカレンダーから、ご都合のよい日時を選ぶだけ。
+            ご予約が確定すると、Google Meetのリンクがメールで届きます。
+          </p>
+          <a href="https://timerex.net/s/megumi.m0215_d3e4/6219b6ec" class="btn" target="_blank" rel="noopener">予約ページを開く（30分・無料）</a>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">✉️</div>
+          <h3>メッセージで問い合わせる</h3>
+          <p>
+            「予約の前に聞いておきたいことがある」「対面を希望したい」など、
+            ご質問やご相談は下のフォームからどうぞ。2〜3日以内にお返事します。
+          </p>
+          <a href="#form" class="btn btn-outline">フォームへ進む</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="form">
+    <div class="container narrow">
+      <div class="section-title">
+        <span class="en">Form</span>
+        <h2>お問い合わせフォーム</h2>
+      </div>
+
+      <!-- 送信先：Web3Forms（アクセスキーは公開されても問題ない仕組みです） -->
+      <form class="form card" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="e71d6005-24bb-430b-8e59-db446ea5896c">
+        <input type="hidden" name="subject" value="【Sunny Days Parenting】サイトからのお問い合わせ">
+        <input type="hidden" name="from_name" value="Sunny Days Parenting サイト">
+        <div class="form-row">
+          <label for="name">お名前<span class="req">必須</span></label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">メールアドレス<span class="req">必須</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="kind">お問い合わせの種類<span class="req">必須</span></label>
+          <select id="kind" name="お問い合わせの種類" required>
+            <option value="">選択してください</option>
+            <option>お試しセッションについて</option>
+            <option>3か月コースについて</option>
+            <option>対面セッションの希望</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="kids">お子さんの年齢<span class="opt">任意</span></label>
+          <input type="text" id="kids" name="お子さんの年齢" placeholder="例：5歳と2歳">
+        </div>
+        <div class="form-row">
+          <label>ご希望のセッション方法<span class="opt">任意</span></label>
+          <div class="radio-group">
+            <label><input type="radio" name="セッション方法" value="オンライン"> オンライン（Google Meet）</label>
+            <label><input type="radio" name="セッション方法" value="対面"> 対面（湘南エリア）</label>
+            <label><input type="radio" name="セッション方法" value="未定"> まだ決めていない</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="date">ご希望の日時<span class="opt">任意</span></label>
+          <input type="text" id="date" name="ご希望の日時" placeholder="例：平日の午前中、土曜の13時以降 など">
+        </div>
+        <div class="form-row">
+          <label for="message">ご相談内容・ご質問<span class="req">必須</span></label>
+          <textarea id="message" name="ご相談内容" required placeholder="うまくまとまっていなくても大丈夫です。"></textarea>
+        </div>
+        <!-- スパム対策（人には見えません） -->
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-row">
+          <label class="consent">
+            <input type="checkbox" name="プライバシーポリシー同意" value="同意する" required>
+            <span><a href="legal.html#privacy" target="_blank">プライバシーポリシー</a>に同意します<span class="req">必須</span></span>
+          </label>
+        </div>
+        <div class="center">
+          <button type="submit" class="btn">送信する</button>
+        </div>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+      </form>
+
+      <div class="card form-thanks" id="form-thanks" hidden>
+        <div class="card-icon" aria-hidden="true">☀️</div>
+        <h3>お問い合わせありがとうございます</h3>
+        <p>内容を受け付けました。2〜3日以内に、ご入力いただいたメールアドレスへお返事します。<br>
+        数日たっても返信が届かない場合は、迷惑メールフォルダもご確認ください。</p>
+        <a href="index.html" class="btn btn-outline">トップページへ戻る</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="">
+        <span class="logo-text">
+          <span class="logo-main">Sunny Days</span>
+          <span class="logo-sub">Parenting</span>
+        </span>
+      </a>
+      <nav class="footer-nav" aria-label="フッターメニュー">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="about.html">わたしについて</a></li>
+          <li><a href="service.html">コーチング・料金</a></li>
+          <li><a href="voice.html">お客様の声</a></li>
+          <li><a href="faq.html">よくある質問</a></li>
+          <li><a href="contact.html">お申し込み・お問い合わせ</a></li>
+          <li><a href="legal.html">特定商取引法に基づく表記・プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> Sunny Days Parenting</p>
+  </div>
+</footer>
+
+</body>
+</html>

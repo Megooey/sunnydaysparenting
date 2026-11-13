@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" role="img" aria-label="太陽の下、海辺で手をつなぐ家族とボーダーコリーのイラスト">
+  <defs>
+    <clipPath id="scene">
+      <circle cx="200" cy="180" r="170"/>
+    </clipPath>
+  </defs>
+
+  <!-- 背景（丸く切り抜いた風景） -->
+  <g clip-path="url(#scene)">
+    <!-- 空 -->
+    <rect width="400" height="360" fill="#fff6d6"/>
+    <!-- 太陽 -->
+    <circle cx="280" cy="95" r="56" fill="#fde98f" opacity="0.6"/>
+    <circle cx="280" cy="95" r="34" fill="#f9d85e"/>
+    <g stroke="#f9d85e" stroke-width="5" stroke-linecap="round" transform="translate(280 95)">
+      <line x1="0" y1="-44" x2="0" y2="-52"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(45)"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(90)"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(135)"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(225)"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(270)"/>
+      <line x1="0" y1="-44" x2="0" y2="-52" transform="rotate(315)"/>
+    </g>
+    <!-- カモメ -->
+    <g fill="none" stroke="#b8a99a" stroke-width="2" stroke-linecap="round">
+      <path d="M86 92 q7 -7 14 0 q7 -7 14 0"/>
+      <path d="M126 70 q5 -5 10 0 q5 -5 10 0"/>
+    </g>
+    <!-- 海 -->
+    <rect x="0" y="212" width="400" height="70" fill="#a9d8e3"/>
+    <rect x="0" y="212" width="400" height="14" fill="#c4e5ec"/>
+    <!-- 波 -->
+    <g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+      <path d="M30 246 q12 -7 24 0 t24 0 t24 0"/>
+      <path d="M300 252 q12 -7 24 0 t24 0 t24 0"/>
+      <path d="M0 268 q16 -8 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0"/>
+    </g>
+    <!-- 砂浜 -->
+    <path d="M0 272 C120 262 280 264 400 276 L400 360 L0 360 Z" fill="#f6e3b4"/>
+    <path d="M0 300 C140 292 260 296 400 304 L400 360 L0 360 Z" fill="#f1d89c" opacity="0.5"/>
+  </g>
+
+  <!-- 家族と犬（円の中に収まるよう少し縮小して中央へ） -->
+  <g transform="translate(200 290) scale(0.9) translate(-231.5 -290)">
+  <!-- ===== 家族 ===== -->
+  <!-- ママ（左） -->
+  <rect x="104" y="250" width="12" height="40" rx="6" fill="#7fa6c9"/>
+  <rect x="124" y="250" width="12" height="40" rx="6" fill="#7fa6c9"/>
+  <path d="M100 178 C100 170 140 170 140 178 L147 254 L93 254 Z" fill="#f6c945"/>
+  <path d="M138 188 C150 210 160 226 176 231" fill="none" stroke="#f4c9a0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="120" cy="152" r="20" fill="#f4c9a0"/>
+  <path d="M100 150 C98 124 142 122 140 152 C134 138 106 138 100 150 Z" fill="#6b5240"/>
+  <circle cx="113" cy="128" r="9" fill="#6b5240"/>
+  <path d="M113 159 q7 5 14 0" fill="none" stroke="#6b5240" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="109" cy="156" r="3.5" fill="#f4a259" opacity="0.4"/>
+  <circle cx="131" cy="156" r="3.5" fill="#f4a259" opacity="0.4"/>
+
+  <!-- パパ（右） -->
+  <rect x="236" y="250" width="13" height="40" rx="6.5" fill="#6b5240"/>
+  <rect x="256" y="250" width="13" height="40" rx="6.5" fill="#6b5240"/>
+  <path d="M231 176 C231 168 275 168 275 176 L281 254 L225 254 Z" fill="#f4a259"/>
+  <path d="M233 188 C221 210 211 226 194 231" fill="none" stroke="#f4c9a0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="253" cy="148" r="21" fill="#f4c9a0"/>
+  <path d="M232 144 C232 120 274 120 274 146 C267 132 240 132 232 144 Z" fill="#4f3d30"/>
+  <path d="M246 156 q7 5 14 0" fill="none" stroke="#6b5240" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="242" cy="153" r="3.5" fill="#f4a259" opacity="0.4"/>
+  <circle cx="264" cy="153" r="3.5" fill="#f4a259" opacity="0.4"/>
+
+  <!-- 子ども（まん中） -->
+  <rect x="176" y="258" width="8" height="32" rx="4" fill="#6b5240"/>
+  <rect x="188" y="258" width="8" height="32" rx="4" fill="#6b5240"/>
+  <path d="M174 224 C174 218 198 218 198 224 L202 262 L170 262 Z" fill="#8bb37a"/>
+  <circle cx="186" cy="206" r="14" fill="#f4c9a0"/>
+  <path d="M172 203 C172 187 200 187 200 205 C194 195 178 195 172 203 Z" fill="#6b5240"/>
+  <circle cx="172" cy="194" r="5" fill="#6b5240"/>
+  <circle cx="200" cy="194" r="5" fill="#6b5240"/>
+  <path d="M181 211 q5 4 10 0" fill="none" stroke="#6b5240" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="177" cy="209" r="2.8" fill="#f4a259" opacity="0.45"/>
+  <circle cx="195" cy="209" r="2.8" fill="#f4a259" opacity="0.45"/>
+
+  <!-- ハート -->
+  <path d="M186 170 c-5 -9 -18 -4 -12 5 l12 10 l12 -10 c6 -9 -7 -14 -12 -5 z" fill="#f4a259" opacity="0.85"/>
+
+  <!-- ===== ボーダーコリー（家族のほうを向いておすわり） ===== -->
+  <!-- しっぽ -->
+  <path d="M350 270 C366 268 372 282 364 292" fill="none" stroke="#3d3631" stroke-width="9" stroke-linecap="round"/>
+  <path d="M366 286 L363 293" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <!-- からだ -->
+  <ellipse cx="332" cy="266" rx="24" ry="23" fill="#3d3631"/>
+  <ellipse cx="347" cy="284" rx="13" ry="8" fill="#3d3631"/>
+  <!-- 白い胸 -->
+  <path d="M302 246 C300 262 304 278 314 284 C322 276 324 258 318 244 Z" fill="#ffffff"/>
+  <!-- 前足（白） -->
+  <rect x="306" y="268" width="8" height="22" rx="4" fill="#ffffff"/>
+  <rect x="317" y="268" width="8" height="22" rx="4" fill="#ffffff"/>
+  <!-- 頭 -->
+  <circle cx="312" cy="234" r="15" fill="#3d3631"/>
+  <!-- 耳（半立ち） -->
+  <path d="M314 222 L326 212 L326 228 Z" fill="#3d3631"/>
+  <path d="M326 212 L321 219" stroke="#3d3631" stroke-width="4" stroke-linecap="round"/>
+  <path d="M302 223 L296 212 L308 219 Z" fill="#3d3631"/>
+  <!-- 白い流星（顔のまん中の白いライン）とマズル -->
+  <path d="M308 220 C305 226 304 232 303 238 L309 238 C310 232 311 226 312 220 Z" fill="#ffffff"/>
+  <ellipse cx="301" cy="242" rx="9" ry="6.5" fill="#ffffff"/>
+  <circle cx="293" cy="240" r="2.8" fill="#3d3631"/>
+  <circle cx="314" cy="232" r="2" fill="#ffffff"/>
+  <circle cx="314" cy="232" r="1.2" fill="#3d3631"/>
+  <path d="M296 246 q4 3 8 0" fill="none" stroke="#3d3631" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- 首輪 -->
+  <path d="M302 248 q11 6 22 -1" fill="none" stroke="#f9d85e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
