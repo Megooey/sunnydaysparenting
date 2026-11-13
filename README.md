@@ -53,3 +53,8 @@ HTML / CSS だけで作ったシンプルなサイトです。`index.html` を�
    - CNAME（www）：`ユーザー名.github.io`
 3. Settings → Pages → Custom domain に `sunnydaysparenting.com` を入力し、反映後に「Enforce HTTPS」をオン
 4. .jp を使う場合は `CNAME` ファイルの中身を `sunnydaysparenting.jp` に書き換える
+
+## CSS・JSを変更したとき
+
+ブラウザが古いファイルを覚えていて変更が反映されないことがあります。
+`css/style.css` や `js/main.js` を変えたら、全ページの `?v=20261113` の日付部分を新しい日付に書き換えてください。
