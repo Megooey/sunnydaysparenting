@@ -15,7 +15,7 @@ HTML / CSS だけで作ったシンプルなサイトです。`index.html` を�
 | legal.html | 特定商取引法に基づく表記・プライバシーポリシー |
 | css/style.css | デザイン（色は先頭の `:root` で一括変更できます） |
 | images/ | ロゴ・イラスト・写真 |
-| （CNAME） | ドメイン取得までは `../domain-setup/CNAME` に退避中 |
+| CNAME | 独自ドメイン（sunnydaysparenting.com）の設定 |
 
 ## 公開前にやること（チェックリスト）
 
@@ -51,5 +51,5 @@ HTML / CSS だけで作ったシンプルなサイトです。`index.html` を�
 2. DNS を設定
    - A レコード（@）：185.199.108.153 / 185.199.109.153 / 185.199.110.153 / 185.199.111.153
    - CNAME（www）：`ユーザー名.github.io`
-3. `../domain-setup/CNAME` をこのフォルダに戻してアップロードし、Settings → Pages → Custom domain に `sunnydaysparenting.com` を入力し、反映後に「Enforce HTTPS」をオン
+3. Settings → Pages → Custom domain に `sunnydaysparenting.com` を入力し、反映後に「Enforce HTTPS」をオン
 4. .jp を使う場合は `CNAME` ファイルの中身を `sunnydaysparenting.jp` に書き換える
