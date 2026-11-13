@@ -391,6 +391,12 @@ p { margin: 0 0 1.2em; }
   line-height: 1.3;
 }
 .plan-price small { font-size: 0.9rem; font-weight: 400; }
+.plan-per {
+  text-align: center;
+  font-weight: 700;
+  color: #b5761c;
+  margin: 0 0 6px;
+}
 .plan-meta { text-align: center; color: var(--text-sub); font-size: 0.9rem; margin-bottom: 20px; }
 .plan ul { padding-left: 1.3em; margin: 0 0 24px; flex: 1; }
 .plan li { margin-bottom: 6px; }
