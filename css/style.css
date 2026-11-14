@@ -577,6 +577,7 @@ p { margin: 0 0 1.2em; }
 
 .contact-choice .card { display: flex; flex-direction: column; }
 .contact-choice .card p { flex: 1; }
+.contact-choice .btn { text-align: center; padding-left: 20px; padding-right: 20px; }
 
 /* ---------- CTA帯 ---------- */
 .cta {
