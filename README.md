@@ -32,7 +32,7 @@ HTML / CSS だけで作ったシンプルなサイトです。`index.html` を�
 - [ ] 事業用の振込口座を用意
 - [x] contact.html：予約ページURL（TimeRex）
 - [x] contact.html：お問い合わせフォーム（Web3Forms、送信先は登録したGmail）
-- [ ] voice.html：サンプルの声を、許可をもらった本物の感想に差し替え（まだない場合はサンプル部分を削除）
+- [x] voice.html：モニターセッション参加者2名の感想を掲載（お名前表記は要確認）
 - [x] legal.html：本名・連絡先は「請求があれば開示」、支払期限7日、制定日2026/11/13
 - [ ] 独自ドメインのメールができたら legal.html の連絡先に追記
 - [ ] SNS共有用の画像（1200×630pxのPNG/JPG）を `images/ogp.jpg` として用意し、各ページに og:image を追加

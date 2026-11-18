@@ -461,6 +461,16 @@ p { margin: 0 0 1.2em; }
 }
 .voice-who { font-size: 0.9rem; color: var(--text-sub); line-height: 1.5; }
 .voice-who strong { color: var(--text); display: block; font-size: 1rem; }
+.voice-intro { color: var(--text-sub); margin-bottom: 36px; }
+.voice-list { max-width: 900px; margin: 0 auto; }
+.voice-original {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  border-top: 1px dashed var(--border);
+  padding-top: 12px;
+  margin-top: 16px;
+}
+.voice-original span { font-size: 0.78rem; }
 .notice {
   background: var(--white);
   border: 2px dashed var(--lemon-deep);
