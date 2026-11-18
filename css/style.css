@@ -351,6 +351,10 @@ p { margin: 0 0 1.2em; }
 .timeline strong { display: block; }
 
 .story p { font-size: 1.02rem; }
+.institute { border-top: 6px solid var(--lemon); }
+.institute h3 { font-size: 1.15rem; margin-bottom: 14px; }
+.institute .tag-list { margin-bottom: 20px; }
+.institute-link { font-size: 0.9rem; margin: 0; }
 .quote-box {
   background: var(--white);
   border-left: 6px solid var(--lemon);
