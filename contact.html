@@ -95,7 +95,7 @@
       </div>
 
       <!-- 送信先：Web3Forms（アクセスキーは公開されても問題ない仕組みです） -->
-      <form class="form card" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <form class="form card" id="contact-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
         <input type="hidden" name="access_key" value="e71d6005-24bb-430b-8e59-db446ea5896c">
         <input type="hidden" name="subject" value="【Sunny Days Parenting】サイトからのお問い合わせ">
         <input type="hidden" name="from_name" value="Sunny Days Parenting サイト">
@@ -109,7 +109,7 @@
         </div>
         <div class="form-row">
           <label for="kind">お問い合わせの種類<span class="req">必須</span></label>
-          <select id="kind" name="お問い合わせの種類" required>
+          <select id="kind" name="Inquiry Type" required>
             <option value="">選択してください</option>
             <option>お試しセッションについて</option>
             <option>単発セッションについて</option>
@@ -120,29 +120,29 @@
         </div>
         <div class="form-row">
           <label for="kids">お子さんの年齢<span class="opt">任意</span></label>
-          <input type="text" id="kids" name="お子さんの年齢" placeholder="例：5歳と2歳">
+          <input type="text" id="kids" name="Child Age" placeholder="例：5歳と2歳">
         </div>
         <div class="form-row">
           <label>ご希望のセッション方法<span class="opt">任意</span></label>
           <div class="radio-group">
-            <label><input type="radio" name="セッション方法" value="オンライン"> オンライン（Google Meet）</label>
-            <label><input type="radio" name="セッション方法" value="対面"> 対面（湘南エリア）</label>
-            <label><input type="radio" name="セッション方法" value="未定"> まだ決めていない</label>
+            <label><input type="radio" name="Session Style" value="オンライン"> オンライン（Google Meet）</label>
+            <label><input type="radio" name="Session Style" value="対面"> 対面（湘南エリア）</label>
+            <label><input type="radio" name="Session Style" value="未定"> まだ決めていない</label>
           </div>
         </div>
         <div class="form-row">
           <label for="date">ご希望の日時<span class="opt">任意</span></label>
-          <input type="text" id="date" name="ご希望の日時" placeholder="例：平日の午前中、土曜の13時以降 など">
+          <input type="text" id="date" name="Preferred Date and Time" placeholder="例：平日の午前中、土曜の13時以降 など">
         </div>
         <div class="form-row">
           <label for="message">ご相談内容・ご質問<span class="req">必須</span></label>
-          <textarea id="message" name="ご相談内容" required placeholder="うまくまとまっていなくても大丈夫です。"></textarea>
+          <textarea id="message" name="message" required placeholder="うまくまとまっていなくても大丈夫です。"></textarea>
         </div>
         <!-- スパム対策（人には見えません） -->
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="form-row">
           <label class="consent">
-            <input type="checkbox" name="プライバシーポリシー同意" value="同意する" required>
+            <input type="checkbox" name="Privacy Policy" value="同意する" required>
             <span><a href="legal.html#privacy" target="_blank">プライバシーポリシー</a>に同意します<span class="req">必須</span></span>
           </label>
         </div>
