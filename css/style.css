@@ -319,7 +319,7 @@ p { margin: 0 0 1.2em; }
   border: 8px solid var(--white);
   box-shadow: var(--shadow);
 }
-.profile-name { font-size: 1.6rem; margin-bottom: 0; }
+.profile-name { font-size: 1.6rem; margin-bottom: 16px; }
 .profile-name-en { color: var(--text-sub); font-size: 0.9rem; margin-bottom: 20px; letter-spacing: 0.15em; }
 @media (max-width: 760px) {
   .profile { grid-template-columns: 1fr; gap: 24px; text-align: left; }

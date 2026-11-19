@@ -22,7 +22,7 @@ HTML / CSS だけで作ったシンプルなサイトです。`index.html` を�
 ファイル内で `TODO` と書かれた箇所が差し替えポイントです。
 
 - [x] サイト名：Sunny Days Parenting（about.html に名前の由来を追加）
-- [x] ローマ字表記「MEG HORIME」
+- [x] ローマ字表記：なし（削除済み）
 - [x] プロフィール写真（`images/profile.jpg`。元写真はサイトの外の `../original-photos/` に保管）
 - [x] about.html の「コーチになるまで」の文章（確認済み）
 - [x] 3か月コース：税込
