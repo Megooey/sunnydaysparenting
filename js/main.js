@@ -33,10 +33,17 @@ document.addEventListener("DOMContentLoaded", function () {
       button.textContent = "送信中…";
       status.hidden = true;
 
+      // 日本語が文字化けしないよう、JSON（UTF-8）で送信する
+      var payload = {};
+      new FormData(form).forEach(function (value, key) { payload[key] = value; });
+
       fetch(form.action, {
         method: "POST",
-        headers: { "Accept": "application/json" },
-        body: new FormData(form)
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify(payload)
       })
         .then(function (res) { return res.json(); })
         .then(function (data) {
